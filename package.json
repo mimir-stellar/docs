@@ -1,0 +1,19 @@
+{
+  "name": "mimir-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Documentation site for Mimir, an AI-settled claim market on Stellar Testnet",
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
